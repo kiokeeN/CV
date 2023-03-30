@@ -25,7 +25,7 @@ html {
 }
 
 .wrapper {
-  width: 945px;
+  width: 1100px;
   margin: 0 auto;
 }
 
@@ -43,11 +43,24 @@ html {
 .header__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   font-weight: normal;
+  margin-top: 30px;
+  font-size: 1.5em;
 }
 
 .header__link {
   text-decoration: none;
-  color: var(--main-black);
+  color: #828282;
+  
+}
+
+.first__li {
+    color:var(--main-black);
+    font-weight: bold;
+}
+
+.div__border {
+    margin-top: 30px;
+    border: 1px solid #828282
 }
