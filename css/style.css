@@ -1,38 +1,9 @@
-@font-face {
-  font-family: "Gilroy-Bold ☞";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Gilroy-Bold ☞"), url("../fonts/Gilroy-Bold.woff") format("woff");
+:root {
+  --main-black: #070707;
 }
 
-@font-face {
-  font-family: "Gilroy-Heavy ☞";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Gilroy-Heavy ☞"), url("../fonts/Gilroy-Heavy.ttf") format("woff");
-}
-
-@font-face {
-  font-family: "Gilroy-Light ☞";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Gilroy-Light ☞"), url("../fonts/Gilroy-Light.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Gilroy-Medium ☞";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Gilroy-Medium ☞"),
-    url("../fonts/Gilroy-Medium.woff") format("woff");
-}
-
-@font-face {
-  font-family: "Gilroy-Regular ☞";
-  font-style: normal;
-  font-weight: normal;
-  src: local("Gilroy-Regular ☞"),
-    url("../fonts/Gilroy-Regular.woff") format("woff");
+.black {
+  color: var(--main-black);
 }
 
 html {
@@ -42,4 +13,41 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+}
+
+.body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  color: var(--main-black);
+}
+
+.wrapper {
+  width: 945px;
+  margin: 0 auto;
+}
+
+.header {
+  background-color: #fff;
+}
+
+.header__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.header__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-weight: normal;
+}
+
+.header__link {
+  text-decoration: none;
+  color: var(--main-black);
 }
