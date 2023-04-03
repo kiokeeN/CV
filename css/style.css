@@ -52,6 +52,9 @@ html {
   margin-top: 30px;
   font-size: 1.2em;
 }
+.text {
+  font-weight: 500;
+}
 
 .header__link {
   text-decoration: none;
@@ -118,7 +121,7 @@ h1 {
   width: 100%;
 }
 
-.ph {
+.about-me.text {
   text-align: center;
   width: 30vw;
 }
@@ -149,7 +152,7 @@ h1 {
 .star {
   margin-top: 1vh;
   /* width: 26px; */
-  height: 26px;
+  height: 20px;
 }
 
 .game-img {
@@ -169,4 +172,72 @@ h1 {
 .game-stars {
   display: flex;
   gap: 10px;
+}
+.portfolio-block {
+  background-color: #f6f6f6;
+  margin-top: 80px;
+  width: 100%;
+}
+.portfolio-h1 {
+  margin-top: 80px;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 400px;
+}
+.contacts.block {
+  background-color: #fff;
+}
+.contacts {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.contacts.text {
+  text-align: center;
+  width: 30vw;
+}
+.contacts.h1 {
+  margin-bottom: 25px;
+  font-size: 200%;
+  font-weight: bold;
+}
+.contacts-button {
+  margin-top: 25px;
+}
+.contacts__links {
+  margin-top: 80px;
+}
+.contacts__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 20vw;
+}
+.contacts-img {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  margin-bottom: 1vh;
+}
+.contacts__links-text {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #828282;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contacts-button {
+  background-color: var(--main-black);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 50px;
+  text-decoration: none;
 }
