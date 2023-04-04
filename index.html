@@ -8,10 +8,10 @@
     <title>Skokov Dmitry CV</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/adaptive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
-
 </head>
 
 <body>
@@ -21,7 +21,7 @@
                 <nav class="header__nav">
                     <ul class="header__list">
                         <li class="header__item">
-                            <a href="#!" class="header__link first-li">Home</a>
+                            <a href="#!" class="header__link">Home</a>
                         </li>
                         <li class="header__item">
                             <a href="#!" class="header__link">About me</a>
@@ -36,8 +36,17 @@
                             <a href="#!" class="header__link">Contacts</a>
                         </li>
                     </ul>
-                    <div class="div__border"></div>
+                    <div class="header__nav-close">
+                        <span class="header__nav-close-line"></span>
+                        <span class="header__nav-close-line"></span>
+                    </div>
                 </nav>
+                <div class="header__border"></div>
+                <div class="header__burger burger">
+                    <span class="burger__line burger__line_first"></span>
+                    <span class="burger__line burger__line_second"></span>
+                    <span class="burger__line burger__line_third"></span>
+                </div>
                 <div class="header__bio">
                     <div class="bio-name">
                         <h1>
@@ -173,6 +182,7 @@
                     <p>Instagram, Twitter, Vk, GitHub</p>
                 </div>
     </main>
+    <script src="/main.js"></script>
 </body>
 
 </html>

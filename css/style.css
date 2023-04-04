@@ -33,7 +33,7 @@ html {
 .header {
   background-color: #fff;
   font-size: 20px;
-  margin-bottom: 50p;
+  margin-bottom: 50px;
 }
 
 .header__wrapper {
@@ -52,6 +52,35 @@ html {
   margin-top: 30px;
   font-size: 1.2em;
 }
+
+.header__burger {
+  display: none;
+  width: 25px;
+  height: 15px;
+  position: fixed;
+  margin-left: 60vw;
+}
+
+.burger__line {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #070707;
+  position: absolute;
+  left: 0;
+}
+.burger__line_first {
+  top: 0;
+}
+
+.burger__line_second {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.burger__line_third {
+  bottom: 0;
+}
 .text {
   font-weight: 500;
 }
@@ -61,12 +90,7 @@ html {
   color: #828282;
 }
 
-.first-li {
-  color: var(--main-black);
-  font-weight: bold;
-}
-
-.div__border {
+.header__border {
   margin-top: 30px;
   border: 1px solid #828282;
 }
@@ -230,6 +254,7 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 30px;
 }
 .contacts-button {
   background-color: var(--main-black);
