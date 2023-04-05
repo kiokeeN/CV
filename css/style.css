@@ -43,6 +43,9 @@ html {
   justify-content: space-between;
   width: inherit;
 }
+.header__language {
+  display: none;
+}
 
 .header__list {
   display: flex;
@@ -87,7 +90,7 @@ html {
 
 .header__link {
   text-decoration: none;
-  color: #828282;
+  color: var(--main-black);
 }
 
 .header__border {

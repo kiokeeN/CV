@@ -24,6 +24,7 @@
     display: block;
   }
 
+
   .header__border {
     display: none;
   }
@@ -40,11 +41,19 @@
     transform: translateX(100%);
     transition: 0.2s all linear;
   }
-
-  .bio-language {
-    z-index: 10;
+  .header__language-separation {
+    padding: 0 5px;
   }
-  
+  .header__language {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    font-size: 30px;
+    color: #828282;
+  }
+  .header__language-eng {
+    color: black
+  }
   .header__nav_active {
     transform: translateX(0);
   }
