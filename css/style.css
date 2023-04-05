@@ -61,7 +61,7 @@ html {
   width: 25px;
   height: 15px;
   position: fixed;
-  margin-left: 60vw;
+  right: 50px
 }
 
 .burger__line {
