@@ -2,6 +2,14 @@
   .skills-programms {
     width: 100vw;
   }
+  .wrapper {
+    width: 100%;
+    padding: 10px 50px;
+  }
+  .mainphoto {
+    width: 100%;
+    height: 15em;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -64,6 +72,7 @@
   .header__nav-close-line:last-child {
     transform: translateY(-50%) rotate(-45deg);
   }
+  
 }
 
 @media only screen and (max-width: 480px) {
