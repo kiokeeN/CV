@@ -114,17 +114,20 @@ h1 {
 .bio-speciality {
   font-size: 1.2em;
   margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .bio-language {
   margin-top: auto;
   transform: translate(20px, -20px);
   font-size: 0.95em;
 }
-.eng {
+.bio-language-eng {
   transform: rotate(-90deg);
   color: var(--main-black);
 }
-.ru {
+.bio-language-ru {
   margin-top: 15px;
   transform: rotate(-90deg);
   color: #828282;
@@ -147,7 +150,7 @@ h1 {
 
 .about-me.text {
   text-align: center;
-  width: 30vw;
+  width: 60%;
 }
 
 .mainphoto {

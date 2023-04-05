@@ -1,4 +1,7 @@
 @media only screen and (max-width: 992px) {
+  .about-me.text {
+    width: 100%; 
+   }
   .skills-programms {
     width: 100vw;
   }
@@ -10,9 +13,13 @@
     width: 100%;
     height: 15em;
   }
+  
 }
 
 @media only screen and (max-width: 768px) {
+  .about-me.text {
+   width: 100%; 
+  }
   .header__burger {
     display: block;
   }
@@ -27,12 +34,17 @@
     position: fixed;
     top: 0;
     left: 0;
-    background-color: white;
+    background-color: #fff;
     z-index: 10;
     padding: 75px;
     transform: translateX(100%);
     transition: 0.2s all linear;
   }
+
+  .bio-language {
+    z-index: 10;
+  }
+  
   .header__nav_active {
     transform: translateX(0);
   }
