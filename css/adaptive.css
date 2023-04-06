@@ -1,7 +1,7 @@
 @media only screen and (max-width: 992px) {
   .about-me.text {
-    width: 100%; 
-   }
+    width: 100%;
+  }
   .skills-programms {
     width: 100vw;
   }
@@ -13,19 +13,18 @@
     width: 100%;
     height: 15em;
   }
-  
 }
 
 @media only screen and (max-width: 768px) {
   .about-me.text {
-   width: 100%; 
+    width: 100%;
   }
   .header__burger {
     display: block;
     cursor: pointer;
   }
 
-  .contacts__list{
+  .contacts__list {
     width: 60vw;
     display: flex;
     justify-content: space-around;
@@ -58,7 +57,7 @@
     color: #828282;
   }
   .header__language-eng {
-    color: black
+    color: black;
   }
   .header__nav_active {
     transform: translateX(0);
@@ -99,9 +98,9 @@
   .header__nav-close-line:last-child {
     transform: translateY(-50%) rotate(-45deg);
   }
- 
 }
-@media only screen and (max-width: 645px) { 
+
+@media only screen and (max-width: 645px) {
   .skills-programms {
     display: flex;
     flex-direction: column;
@@ -109,6 +108,18 @@
   }
   .star {
     margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 614px) {
+  .bio-speciality {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 545px) {
+  .mainphoto {
+    object-fit: fill;
   }
 }
 
@@ -120,5 +131,11 @@
     display: flex;
     justify-content: space-around;
     width: 100vw;
+  }
+  .block {
+    height: 500px;
+    background-color: #f6f6f6;
+    margin-top: 80px;
+    width: 100%;
   }
 }
