@@ -43,17 +43,26 @@ html {
   justify-content: space-between;
   width: inherit;
 }
+.header__nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.7);
+}
+
 .header__language {
   display: none;
 }
 
 .header__list {
+  margin: 30px auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   font-weight: normal;
-  margin-top: 30px;
   font-size: 1.2em;
+  width: 63vw;
 }
 
 .header__burger {
@@ -94,8 +103,7 @@ html {
 }
 
 .header__border {
-  margin-top: 30px;
-  border: 1px solid #828282;
+  border: 1px solid #828282; 
 }
 
 h1 {
@@ -104,7 +112,7 @@ h1 {
 }
 
 .header__bio {
-  margin-top: 30px;
+  margin-top: 110px;
   margin-bottom: 30px;
   display: flex;
   flex-wrap: wrap;
@@ -122,14 +130,12 @@ h1 {
   flex-direction: column;
   justify-content: center;
 }
-.bio-language {
-  margin-top: auto;
-  transform: translate(20px, -20px);
-  font-size: 0.95em;
-}
+
 .bio-language-eng {
+  margin-top: 25px;
   transform: rotate(-90deg);
   color: var(--main-black);
+
 }
 .bio-language-ru {
   margin-top: 15px;
