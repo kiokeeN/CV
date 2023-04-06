@@ -228,7 +228,7 @@ h1 {
 }
 .contacts.text {
   text-align: center;
-  width: 30vw;
+  width: 100%;
 }
 .contacts.h1 {
   margin-bottom: 25px;
@@ -244,8 +244,8 @@ h1 {
 .contacts__list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  width: 20vw;
+  justify-content: space-between;
+  width: 22vw;
 }
 .contacts-img {
   width: 40px;
