@@ -63,6 +63,7 @@ html {
   font-weight: normal;
   font-size: 1.2em;
   width: 63vw;
+
 }
 
 .header__burger {
@@ -100,6 +101,12 @@ html {
 .header__link {
   text-decoration: none;
   color: var(--main-black);
+  opacity: 0.6;
+  transition: all .07s ease-in-out
+}
+
+.header__link:hover {
+  opacity: 1;
 }
 
 .header__border {
