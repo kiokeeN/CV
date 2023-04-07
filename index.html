@@ -15,14 +15,14 @@
 </head>
 
 <body>
-    <header id="home" class="header">
+    <header id="home" class="header section">
         <div class="wrapper">
             <div class="header_wrapper">
                 <div class="header__block">
                     <nav class="header__nav">
                         <ul class="header__list">
                             <li class="header__item">
-                                <a href="#home" class="header__link js-scroll">Home</a>
+                                <a href="#home" class="header__link js-scroll active">Home</a>
                             </li>
                             <li class="header__item">
                                 <a href="#about-me" class="header__link js-scroll">About me</a>
@@ -48,12 +48,13 @@
                         </div>
                         <div class="header__border"></div>
                     </nav>
+                    <div class="header__burger burger">
+                        <span class="burger__line burger__line_first"></span>
+                        <span class="burger__line burger__line_second"></span>
+                        <span class="burger__line burger__line_third"></span>
+                    </div>
                 </div>
-                <div class="header__burger burger">
-                    <span class="burger__line burger__line_first"></span>
-                    <span class="burger__line burger__line_second"></span>
-                    <span class="burger__line burger__line_third"></span>
-                </div>
+               
                 <div class="header__bio">
                     <div class="bio-name">
                         <h1>
@@ -87,7 +88,7 @@
         </div>
     </header>
     <main>
-        <div id="about-me" class="about-me block">
+        <div id="about-me" class="about-me block section">
             <div class="about-me">
                 <h1>About me</h1>
                 <p class="about-me text">Hi, I'm Denis – UX/UI designer from Minsk.
@@ -100,7 +101,7 @@
                     with wonderful people.</p>
             </div>
         </div>
-        <div id="skills">
+        <div id="skills" class="section">
             <div class="skills-block">
                 <div class="skills">
                     <h1>Skills</h1>
@@ -156,12 +157,12 @@
                 </div>
 
             </div>
-            <div id="portfolio" class="portfolio-block">
-                <div class="portfolio">
+            <div id="portfolio" class="portfolio-block section">
+                <div class="portfolio ">
                     <h1>Portfolio</h1>
                 </div>
             </div>
-            <div id="contacts" class="contacts block">
+            <div id="contacts" class="contacts block section">
                 <div class="contacts">
                     <h1 class="contacts h1"> Contacts </h1>
                     <p class="contacts text">Want to know more or just chat?</p>

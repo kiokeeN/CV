@@ -5,6 +5,7 @@
   const menuLinks = document.querySelectorAll('.header__link')
   burgerItem.addEventListener('click', () => {
     menu.classList.add('header__nav_active')
+    
   })
   menuCloseItem.addEventListener('click', () => {
     menu.classList.remove('header__nav_active')
@@ -54,3 +55,26 @@
   }
   scrollTo()
 })()
+
+  window.addEventListener('scroll', () => {
+    let scrollDistance = window.scrollY
+    document.querySelectorAll('.section').forEach((el, i) => {
+      if (
+        el.offsetTop - document.querySelector('.header__block').clientHeight - 5 <=
+        scrollDistance
+      ) {
+        document.querySelectorAll('.header__block a').forEach(el => {
+          if (el.classList.contains('active')) {
+            el.classList.remove('active')
+          }
+        })
+  
+        document
+          .querySelectorAll('.header__block li')
+          [i].querySelector('a')
+          .classList.add('active')
+      }
+    })
+  })
+  
+
