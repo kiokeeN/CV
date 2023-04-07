@@ -32,7 +32,7 @@
     padding: 40px 50px;
   }
   .header__bio {
-    margin-top: 0;
+    margin-top: 0
   }
   .header__burger {
     display: block;
@@ -44,7 +44,7 @@
     display: flex;
     justify-content: space-around;
   }
-
+ 
   .header__nav {
     width: 100%;
     height: 100%;
@@ -56,6 +56,7 @@
     padding: 75px;
     transform: translateX(100%);
     transition: 0.2s all linear;
+    
   }
 
   .header__language-separation {
@@ -87,8 +88,7 @@
   .header__item:last-child {
     margin-bottom: 0;
   }
-
-  .header__border {
+  .header__border{
     display: none;
   }
   .header__link {

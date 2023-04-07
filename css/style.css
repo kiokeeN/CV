@@ -43,12 +43,13 @@ html {
   justify-content: space-between;
   width: inherit;
 }
-.header__block{
+.header__block {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
-  background: rgba(255, 255, 255, 0.9);
+  background: rgba(255, 255, 255, 0.4);
+  z-index: 1;
 }
 
 .header__language {
@@ -63,7 +64,6 @@ html {
   font-weight: normal;
   font-size: 1.2em;
   width: 63vw;
-
 }
 
 .header__burger {
@@ -103,7 +103,7 @@ html {
   text-decoration: none;
   color: var(--main-black);
   opacity: 0.6;
-  transition: all .07s ease-in-out
+  transition: all 0.07s ease-in-out;
 }
 .active {
   opacity: 0.8;
@@ -115,7 +115,7 @@ html {
 }
 
 .header__border {
-  border: 1px solid #828282; 
+  border: 1px solid #e0e0e0;
 }
 
 h1 {
@@ -131,10 +131,12 @@ h1 {
   justify-content: space-between;
   font-weight: normal;
 }
+
 .bio-name {
   font-size: 1.2em;
   margin-right: 20px;
 }
+
 .bio-speciality {
   font-size: 1.2em;
   margin-top: auto;
@@ -143,12 +145,13 @@ h1 {
   justify-content: center;
 }
 
+
 .bio-language-eng {
   margin-top: 25px;
   transform: rotate(-90deg);
   color: var(--main-black);
-
 }
+
 .bio-language-ru {
   margin-top: 15px;
   transform: rotate(-90deg);
@@ -181,7 +184,7 @@ h1 {
   height: 60vh;
   object-fit: cover;
 }
-.skills-block{
+.skills-block {
   padding-top: 80px;
 }
 .skills {
@@ -224,7 +227,6 @@ h1 {
 }
 .portfolio-block {
   background-color: #f6f6f6;
-  
 }
 
 .portfolio {

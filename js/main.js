@@ -5,19 +5,18 @@
   const menuLinks = document.querySelectorAll('.header__link')
   burgerItem.addEventListener('click', () => {
     menu.classList.add('header__nav_active')
-    
   })
   menuCloseItem.addEventListener('click', () => {
     menu.classList.remove('header__nav_active')
   })
-  if (window.innerWidth < 768) {
-    for (let i = 0; i < menuLinks.length; i++) {
-      menuLinks[i].addEventListener('click', () => {
-        menu.classList.remove('header__nav_active')
-      })
-    }
+
+  for (let i = 0; i < menuLinks.length; i++) {
+    menuLinks[i].addEventListener('click', () => {
+      menu.classList.remove('header__nav_active')
+    })
   }
 })()
+
 
 ;(function () {
   const smoothScroll = function (targetEl, duration) {
@@ -56,25 +55,23 @@
   scrollTo()
 })()
 
-  window.addEventListener('scroll', () => {
-    let scrollDistance = window.scrollY
-    document.querySelectorAll('.section').forEach((el, i) => {
-      if (
-        el.offsetTop - document.querySelector('.header__block').clientHeight - 5 <=
-        scrollDistance
-      ) {
-        document.querySelectorAll('.header__block a').forEach(el => {
-          if (el.classList.contains('active')) {
-            el.classList.remove('active')
-          }
-        })
-  
-        document
-          .querySelectorAll('.header__block li')
-          [i].querySelector('a')
-          .classList.add('active')
-      }
-    })
-  })
-  
+window.addEventListener('scroll', () => {
+  let scrollDistance = window.scrollY
+  document.querySelectorAll('.section').forEach((el, i) => {
+    if (
+      el.offsetTop - document.querySelector('.header__block').clientHeight - 5 <=
+      scrollDistance
+    ) {
+      document.querySelectorAll('.header__block a').forEach(el => {
+        if (el.classList.contains('active')) {
+          el.classList.remove('active')
+        }
+      })
 
+      document
+        .querySelectorAll('.header__block li')
+        [i].querySelector('a')
+        .classList.add('active')
+    }
+  })
+})
