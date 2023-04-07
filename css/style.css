@@ -33,7 +33,7 @@ html {
 .header {
   background-color: #fff;
   font-size: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 .header__wrapper {
@@ -169,9 +169,8 @@ h1 {
   height: 60vh;
   object-fit: cover;
 }
-
-.skills.block {
-  background: #fff;
+.skills-block{
+  padding-top: 80px;
 }
 .skills {
   gap: 40px;
@@ -213,10 +212,11 @@ h1 {
 }
 .portfolio-block {
   background-color: #f6f6f6;
-  margin-top: 80px;
-  width: 100%;
+  
 }
-.portfolio-h1 {
+
+.portfolio {
+  padding-top: 80px;
   margin-top: 80px;
   font-size: 20px;
   display: flex;
