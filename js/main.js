@@ -18,10 +18,9 @@
   }
 })()
 
-// Scroll to anchors
 ;(function () {
   const smoothScroll = function (targetEl, duration) {
-    const headerElHeight = document.querySelector('.header__nav').clientHeight
+    const headerElHeight = document.querySelector('.header__block').clientHeight
     let target = document.querySelector(targetEl)
     let targetPosition = target.getBoundingClientRect().top - headerElHeight
     let startPosition = window.pageYOffset

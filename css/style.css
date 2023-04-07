@@ -43,7 +43,7 @@ html {
   justify-content: space-between;
   width: inherit;
 }
-.header__nav{
+.header__block{
   position: fixed;
   top: 0;
   left: 0;
