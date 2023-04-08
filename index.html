@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skokov Dmitry CV</title>
+    <title class="lng-title">Skokov Dmitry CV</title>
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/adaptive.css">
@@ -22,19 +22,19 @@
                     <nav class="header__nav">
                         <ul class="header__list">
                             <li class="header__item">
-                                <a href="#home" class="header__link js-scroll active">Home</a>
+                                <a href="#home" class="lng-home header__link js-scroll active">Home</a>
                             </li>
                             <li class="header__item">
-                                <a href="#about-me" class="header__link js-scroll">About me</a>
+                                <a href="#about-me" class="lng-about-me header__link js-scroll">About me</a>
                             </li>
                             <li class="header__item">
-                                <a href="#skills" class="header__link js-scroll">Skills</a>
+                                <a href="#skills" class="lng-skills header__link js-scroll">Skills</a>
                             </li>
                             <li class="header__item">
-                                <a href="#portfolio" class="header__link js-scroll">Portfolio</a>
+                                <a href="#portfolio" class="lng-portfolio header__link js-scroll">Portfolio</a>
                             </li>
                             <li class="header__item">
-                                <a href="#contacts" class="header__link js-scroll">Contacts</a>
+                                <a href="#contacts" class="lng-cpontacts header__link js-scroll">Contacts</a>
                             </li>
                             <li class="header__language">
                                 <div class="header__language-eng"> ENG</div>
@@ -64,20 +64,18 @@
                         </h1>
                     </div>
                     <div class="bio-speciality">
-                        <p>
+                        <p class="lng-front">
                             Frontend developer
                         </p>
-                        <p>
+                        <p class="lng-age">
                             25 years old, Yekaterinburg
                         </p>
                     </div>
                     <div id="language" class="bio-language">
-                        <div class="bio-language-eng">
-                            | ENG
-                        </div>
-                        <div class="bio-language-ru">
-                            RU
-                        </div>
+                        <select class="change-lang">
+                            <option value="ru" selected>RU</option>
+                            <option value="en">EN</option>
+                        </select>
                     </div>
                 </div>
                 <div class="photo">
@@ -89,23 +87,23 @@
     <main>
         <div id="about-me" class="about-me block section">
             <div class="about-me">
-                <h1>About me</h1>
-                <p class="about-me text">Hi, I'm Denis – UX/UI designer from Minsk.
+                <h1 class="lng-about-me-h1">About me</h1>
+                <p class="lng-about-me-1p about-me text">Hi, I'm Denis – UX/UI designer from Minsk.
                     I'm interested in design and everything connected with it.</p>
 
-                <p class="about-me text">I'm studying at courses "Web and mobile design
+                <p class="lng-about-me-2p about-me text">I'm studying at courses "Web and mobile design
                     interfaces" in IT-Academy.</p>
 
-                <p class="about-me text">Ready to implement excellent projects
+                <p class="lng-about-me-3p about-me text">Ready to implement excellent projects
                     with wonderful people.</p>
             </div>
         </div>
         <div id="skills" class="section">
             <div class="skills-block">
                 <div class="skills">
-                    <h1>Skills</h1>
+                    <h1 class="lng-skills-h1">Skills</h1>
                     <div class="skills ph">
-                        <p class="text">I work in such programs as</p>
+                        <p class="lng-skills-text text">I work in such programs as</p>
                     </div>
                     <div class="skills-programms">
                         <div class="game">
@@ -157,17 +155,18 @@
 
             </div>
             <div id="portfolio" class="portfolio-block section">
-                <div class="portfolio ">
-                    <h1>Portfolio</h1>
+                <div class="portfolio">
+                    <h1 class="lng-portfolio-h1">Portfolio</h1>
                 </div>
             </div>
             <div id="contacts" class="contacts block section">
                 <div class="contacts">
-                    <h1 class="contacts h1"> Contacts </h1>
-                    <p class="contacts text">Want to know more or just chat?</p>
-                    <p class="contacts text">You are welcome!</p>
+                    <h1 class="lng-contacts-h1 contacts h1"> Contacts </h1>
+                    <p class="lng-contacts-p1 contacts text">Want to know more or just chat?</p>
+                    <p class="lng-contacts-p2 contacts text">You are welcome!</p>
                 </div>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" class="contacts-button">Send
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley"
+                    class="lng-contacts-button contacts-button">Send
                     message</a>
                 <div class="contacts__links">
                     <ul class="contacts__list">
@@ -190,10 +189,11 @@
                     </ul>
                 </div>
                 <div class="contacts__links-text">
-                    <p>Follow me on</p>
+                    <p class="lng-contacts__links-p1">Follow me on</p>
                     <p>Instagram, Twitter, Vk, GitHub</p>
                 </div>
     </main>
+    <script src="./js/lang.js"></script>
     <script src="./js/main.js"></script>
 </body>
 
