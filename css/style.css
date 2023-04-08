@@ -43,12 +43,13 @@ html {
   justify-content: space-between;
   width: inherit;
 }
-.header__block {
+.header__block{
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   background: rgba(255, 255, 255, 0.4);
+ 
   z-index: 1;
 }
 
@@ -98,6 +99,7 @@ html {
 .text {
   font-weight: 500;
 }
+
 
 .header__link {
   text-decoration: none;
