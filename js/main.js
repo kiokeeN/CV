@@ -9,7 +9,7 @@
   menuCloseItem.addEventListener('click', () => {
     menu.classList.remove('header__nav_active')
   })
-  
+
   for (let i = 0; i < menuLinks.length; i++) {
     menuLinks[i].addEventListener('click', () => {
       menu.classList.remove('header__nav_active')
@@ -75,9 +75,9 @@ window.addEventListener('scroll', () => {
 })
 
 const select = document.querySelector('select')
-const mobileSelect = document.querySelector('mobile-select')
 const allLang = ['en', 'ru']
 select.addEventListener('change', changeURLLanguage)
+
 
 // перенаправить на url с указанием языка
 function changeURLLanguage() {

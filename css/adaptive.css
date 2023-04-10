@@ -64,15 +64,15 @@
     transition: 0.2s all linear;
   }
 
-  .header__language-separation {
+  /* .header__language-separation {
     padding: 0 5px;
-  }
+  } */
 
   .header__language {
     width: 100%;
     display: flex;
-    margin-top: 50px;
-    font-size: 30px;
+    margin-top: 30px;
+    font-size: 35px;
     color: #828282;
   }
 

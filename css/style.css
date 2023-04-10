@@ -53,10 +53,6 @@ html {
   z-index: 1;
 }
 
-.header__language {
-  display: none;
-}
-
 .header__list {
   margin: 30px auto;
   display: flex;
@@ -145,6 +141,7 @@ h1 {
   flex-direction: column;
   justify-content: center;
 }
+
 
 .header__language select {
   background: transparent;
