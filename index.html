@@ -36,11 +36,17 @@
                             <li class="header__item">
                                 <a href="#contacts" class="lng-cpontacts header__link js-scroll">Contacts</a>
                             </li>
-                            <li class="header__language">
+                            <!-- <li class="header__language">
                                 <div class="header__language-eng"> ENG</div>
                                 <div class="header__language-separation"> | </div>
                                 <div class="header__language-ru"> RU </div>
-                            </li>
+                            </li> -->
+                            <li class="header__language">
+                                <select>
+                                    <option value="ru" selected>RU</option>
+                                    <option value="en">EN</option>
+                                </select>
+                            </li> 
                         </ul>
                         <div class="header__nav-close">
                             <span class="header__nav-close-line"></span>
@@ -72,11 +78,18 @@
                         </p>
                     </div>
                     <div id="language" class="bio-language">
-                        <select class="change-lang">
+                        <select>
                             <option value="ru" selected>RU</option>
                             <option value="en">EN</option>
                         </select>
                     </div>
+
+                    <!-- <div class="bio-language-eng">
+                        | ENG
+                    </div>
+                    <div class="bio-language-ru">
+                        RU
+                    </div> -->
                 </div>
                 <div class="photo">
                     <img class="mainphoto" src="img/cat photo.jpg" alt="Фото любимого котика">
